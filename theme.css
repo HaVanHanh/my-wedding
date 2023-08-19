@@ -18,7 +18,7 @@ html, body{
         background-size: cover;
         height: fit-content;
         margin: 0;
-        padding-top: 70vh;
+        padding-top: 91.25vh;
     }
 
     .heading {
@@ -37,7 +37,27 @@ html, body{
         font-family: 'Caveat', cursive;
         font-size: .1em;
     }
+
 }
+
+/* @media screen and (max-width: 900px) {
+    .heading {
+        color: #ffffff;
+        display: block;
+        font-family: 'Mea Culpa';
+        font-size: 30px;
+        font-weight: normal;
+        text-shadow: 0 0 10px #000;
+        line-height: -3;
+    }
+
+    .heading-subtext{
+        color: #fff;
+        display: block;
+        font-family: 'Caveat', cursive;
+        font-size: .1em;
+    }
+  } */
 
 
 @media (min-width: 1300px) {
@@ -49,7 +69,7 @@ html, body{
         background-size: cover;
         height: fit-content;
         margin: 0;
-        padding-top: 65vh;
+        padding-top: 60vh;
     }
 
     .heading {
@@ -161,8 +181,8 @@ html, body{
     width: 100%
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
     }
-  }
+  } */

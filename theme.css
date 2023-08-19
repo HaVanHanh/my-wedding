@@ -51,7 +51,7 @@ body {
         text-shadow: 0 0 10px #000;
 
         position: absolute;
-        top: 180px;
+        bottom: 530px;
         left: 10%;
         /* right: 15%; */
 
@@ -66,7 +66,8 @@ body {
         text-shadow: 0 0 10px #000;
 
         position: absolute;
-        top: 220px;
+        /* top: 210px; */
+        bottom: 490px;
         /* left: 15%; */
         right: 10%;
 
@@ -81,7 +82,8 @@ body {
         text-shadow: 0 0 10px #000;
 
         position: absolute;
-        top: 200px;
+        /* top: 190px; */
+        bottom: 510px;
         /* left: 15%; */
         right: 50%;
 
@@ -125,6 +127,15 @@ body {
         font-size: .3em;
     }
 }
+
+.text-spacing-five {
+    letter-spacing: 5px;
+}
+
+img.gmap {
+    height: 8%;
+    width: 8%;
+  }
 
 .fixed-button {
     background: rgba(20, 20, 20, .5);

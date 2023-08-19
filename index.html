@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Thu Thủy  Văn Hanh</title>
-    <link rel="stylesheet" type="text/css" href="theme.css"> 
-    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Passions Conflict' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Lovers Quarrel' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Hurricane' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Festive' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Mea Culpa' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Gwendolyn' rel='stylesheet'>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <header class="header">
-      <h3 class="heading"> Thu Thủy - Văn Hanh </h3>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Thu Thủy Văn Hanh</title>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Passions Conflict' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lovers Quarrel' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Hurricane' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Festive' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Mea Culpa' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Gwendolyn' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+  
 
-    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <section class="section" >
-      <h2 class="sub-heading">Trân trọng kính mời</h2>
-      <p>.........................................</p>
-      <p>Tới dự bữa cơm thân mật chung vui cùng với gia đình chúng con - em - tôi</p>
+<body>
+  <header class="header">
+    <h1 class="heading" style="top: 50px;"> SAVE </h1> 
+    <h3 class="heading" style="font-size: smaller; top: 70px;  margin-top: 35px;"><br>THE<br></h3>
+    <h1 class="heading" style="top: 90px; margin-top: 60px;" >DATE</h1>
 
-    </section>
+    <h3 class="heading-left"> Thu Thủy </h3>
+    <h3 class="heading-center"> and </h3>
+    <h3 class="heading-right"> Văn Hanh </h3>
 
-    <script src="./js/smooth-scroll.polyfills.min.js"></script>
-    <script defer>
-      var scroll = new SmoothScroll('a[href*="#"]');
-      var rsvpButton = document.getElementById('rsvpButton')
-      rsvpButton.addEventListener('click',hideButton,false);
+  </header>
 
-      function hideButton() {
-        rsvpButton.style.display = 'none';
-      }   
-    </script>
-  </body>
+  <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a>
+
+  <section class="section">
+    <h2 class="sub-heading">Trân trọng kính mời</h2>
+    <p>.........................................</p>
+    <p>Tới dự bữa cơm thân mật chung vui cùng với gia đình chúng con - em - tôi</p>
+
+  </section>
+
+  <script src="./js/smooth-scroll.polyfills.min.js"></script>
+  <script defer>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    var rsvpButton = document.getElementById('rsvpButton')
+    rsvpButton.addEventListener('click', hideButton, false);
+
+    function hideButton() {
+      rsvpButton.style.display = 'none';
+    }   
+  </script>
+</body>
+
 </html>

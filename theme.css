@@ -9,14 +9,14 @@ html, body{
     text-align: center;
 }
 .header{
-    background-image: url(./img/GUN05493.JPG);
+    background-image: url(./img/GUN05543.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 60%;
+    background-position: 80% 50%;
     background-attachment: scroll;
     background-size: cover;
-    height: 40vh;
+    height: fit-content;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 40vh;
 }
 .heading {
     color: #ffffff;
@@ -25,12 +25,13 @@ html, body{
     font-size: 6em;
     font-weight: normal;
     text-shadow: 0 0 10px #000;
+    line-height: -3;
 }
 .heading-subtext{
     color: #fff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: .6em;
+    font-size: .3em;
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
